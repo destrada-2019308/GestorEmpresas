@@ -1,0 +1,317 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Gestor de Empresas",
+    "dateExported": "2024-03-03T15:43:36.060Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "901d7e17-6d00-4575-8e1f-17163a857d7c",
+            "name": "ADMIN",
+            "containerId": "",
+            "created": "2024-03-03T01:59:52.551Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-03-03T05:29:49.403Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "57a3e0a9-1a74-4978-8537-24de7643f64c",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "901d7e17-6d00-4575-8e1f-17163a857d7c",
+            "name": "Test",
+            "url": "/user/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-03T01:59:58.046Z",
+            "modified": "2024-03-03T15:22:12.889Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ab489d44-9c2d-4ce7-b828-c0dcfba56796",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "901d7e17-6d00-4575-8e1f-17163a857d7c",
+            "name": "Private login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T02:20:07.690Z",
+            "modified": "2024-03-03T02:23:28.484Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "admin"
+                    },
+                    {
+                        "name": "password",
+                        "value": "admin1234"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "796722c9-2c95-48b6-acb3-b8bb8189f273",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "901d7e17-6d00-4575-8e1f-17163a857d7c",
+            "name": "Register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-03T02:38:34.936Z",
+            "modified": "2024-03-03T15:22:49.922Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Diego"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "René"
+                    },
+                    {
+                        "name": "username",
+                        "value": "destrada"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "destrada@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "role",
+                        "value": "ADMIN"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "94aaa309-0d93-4996-8aaf-9169d2df40fb",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Register Company",
+            "url": "/company/registerCompany",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-03T05:29:57.560Z",
+            "modified": "2024-03-03T06:02:01.948Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDQzOTIxLCJleHAiOjE3MDk0NTgzMjF9.cideQi8FRZTomGEPobIwccB1p655UpX7xn_VjhP9aeU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Grupo Macro"
+                    },
+                    {
+                        "name": "contact",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "levelCareer",
+                        "value": "asdasdasa"
+                    },
+                    {
+                        "name": "yearsCareer",
+                        "value": "6"
+                    },
+                    {
+                        "name": "categoryBusiness",
+                        "value": "123123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "5d9dadba-0054-4f25-8961-b822075d65d4",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Test",
+            "url": "/company/test",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-03T05:34:16.346Z",
+            "modified": "2024-03-03T15:23:03.838Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9ccf288c-18f7-4191-bd44-5a05c6cc7ab7",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Show Company YearCareer",
+            "url": "/company/getYearCareer",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-03T05:41:21.079Z",
+            "modified": "2024-03-03T15:23:12.970Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8a29fb15-9a89-4a6c-90c4-6c8e05e81fdb",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Show Company Category",
+            "url": "/company/getCategory",
+            "method": "GET",
+            "sortNum": 85000,
+            "created": "2024-03-03T06:23:57.022Z",
+            "modified": "2024-03-03T15:23:20.502Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59cbfc32-0f7f-4606-841d-162e39cb511b",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Filter A-Z",
+            "url": "/company/getZA",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-03T06:31:38.482Z",
+            "modified": "2024-03-03T15:23:31.080Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8bf4e9b6-7533-40a3-815a-e4b79fd0bd31",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Filter Z-A",
+            "url": "/company/getZA",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-03-03T06:32:37.188Z",
+            "modified": "2024-03-03T15:23:42.234Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e35bd9de-9870-4808-9fb4-2542dd64b06b",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "Update Company",
+            "url": "/company/updateCompany/65e40bbde71393eb225c3860",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-03-03T06:39:25.645Z",
+            "modified": "2024-03-03T15:25:37.614Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "asd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e5741d84-7ad7-4835-ad89-40f8a3f90006",
+            "colId": "63bea353-2db7-435d-bcb9-60759e2550c5",
+            "containerId": "6ad542df-cd29-4ac9-a980-0319e66f7962",
+            "name": "GenerarExcel",
+            "url": "/company/getExcel",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-03-03T06:55:12.393Z",
+            "modified": "2024-03-03T15:26:28.191Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZGJhY2I5YmFiNTZhMjA0NzI3NGUiLCJ1c2VybmFtZSI6ImFkbWluIiwibmFtZSI6ImFkbWluIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDc5MzEzLCJleHAiOjE3MDk0OTM3MTN9._IqWDEvFZYiwnl6dVRuzKfnhb6x_W4-foW7c5Jbi0PE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2658"
+        }
+    }
+}
